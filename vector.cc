@@ -8,7 +8,7 @@
 int main()
 {
   using AType = A<SIZE>;
-  std::size_t nelem = NELEM ;
+  std::size_t nelem = NELEM;
 
   std::random_device rd;
   std::mt19937_64 prng(rd());
@@ -36,6 +36,8 @@ int main()
     << "Time Elapsed = "
     << std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count()
     << std::endl;
+
+  std::cout << "First Element = " << random_vector[0].index << std::endl;
 
   return EXIT_SUCCESS;
 }

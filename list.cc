@@ -34,5 +34,6 @@ int main()
     << std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count()
     << std::endl;
 
+  std::cout << "First Element = " << random_list.front().index << std::endl;
   return EXIT_SUCCESS;
 }
