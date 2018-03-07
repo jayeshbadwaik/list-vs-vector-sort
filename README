@@ -1,0 +1,6 @@
+SIZE -> Size of the object
+NELEM -> Number of Elements
+
+$ SIZE=1024 NELEM=1024 make
+$ ./list
+$ ./vector
