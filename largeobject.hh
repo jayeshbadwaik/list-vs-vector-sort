@@ -6,7 +6,7 @@
 
 template <std::size_t N>
 struct A {
-  std::array<double, N> data;
+  std::array<double, N> data{0};
   std::size_t index;
 };
 
