@@ -33,7 +33,7 @@ int main()
   auto const elapsed = stop - start;
 
   std::cout
-    << "Time Elapsed = "
+    << "Time to Sort = "
     << std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count()
     << std::endl;
 
